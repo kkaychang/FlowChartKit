@@ -41,7 +41,7 @@ public class DrawingNode {
     public let contackType: ContackType
     
     // init
-    init(_ view: UIView, from direction: DrawDirection, with type: ContackType) {
+    public init(_ view: UIView, from direction: DrawDirection, with type: ContackType) {
         self.view = view
         self.direction = direction
         self.contackType = type

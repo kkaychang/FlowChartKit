@@ -8,8 +8,8 @@
 import Foundation
 
 public enum DrawDirection {
-    static let `top`: DrawDirection = .up
-    static let `bottom`: DrawDirection = .down
+    public static let `top`: DrawDirection = .up
+    public static let `bottom`: DrawDirection = .down
     
     case up
     case left

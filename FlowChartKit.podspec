@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = "11.0"
 
-  s.source_files  = "FlowChartKit/Classes/*.{h,m,swift}", "FlowChartKit/Classes/**/*.{h,m,swift}"
-  s.resource_bundles = {
-      'FlowChartKit' => ['FlowChartKit/Assets/*.*']
-  }
+  s.source_files  = "FlowChartKit/FlowChartKit/Classes/*.{h,m,swift}", "FlowChartKit/FlowChartKit/Classes/**/*.{h,m,swift}"
+  #s.resource_bundles = {
+  #    'FlowChartKit' => ['FlowChartKit/Assets/*.*']
+  #}
 
   s.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4']
 

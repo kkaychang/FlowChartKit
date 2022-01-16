@@ -7,15 +7,15 @@
 
 import UIKit
 
-class ShapeFactory {
+public class ShapeFactory {
     
     private let parentView: UIView
     
-    init(parentView: UIView) {
+    public init(parentView: UIView) {
         self.parentView = parentView
     }
     
-    func createShapeView(shape: Shapes, contentView: UIView?, nodeConfig: NodeConfig, offSet: EdgeOffsets, isFixedWidth: Bool = false) -> ShapeViewProtocol {
+    public func createShapeView(shape: Shapes, contentView: UIView?, nodeConfig: NodeConfig, offSet: EdgeOffsets, isFixedWidth: Bool = false) -> ShapeViewProtocol {
         switch shape {
         case .circle:
             return CircleShape(size: shape.size, parentView: parentView, contentView: contentView, nodeConfig: nodeConfig, offSet: offSet, isFixedWidth: true)

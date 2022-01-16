@@ -7,11 +7,11 @@
 
 import UIKit
 
-protocol TextContentViewDelegate: AnyObject {
+public protocol TextContentViewDelegate: AnyObject {
     func getDidTappedTextContent(title: String, value: String)
 }
 
-class TextContentView: UIView {
+public class TextContentView: UIView {
     
     lazy var contentView: UIStackView = {
         let stackView = UIStackView()
@@ -39,7 +39,7 @@ class TextContentView: UIView {
         return label
     }()
     
-    weak var delegate: TextContentViewDelegate?
+    public weak var delegate: TextContentViewDelegate?
     
     private var titleText: String
 
@@ -55,7 +55,7 @@ class TextContentView: UIView {
         return tap
     }()
     
-    init(title: String, value: String, width: CGFloat = 50, height: CGFloat = 50, titleConfig: ContentConfig = ContentConfig(), valueConfig: ContentConfig = ContentConfig()) {
+    public init(title: String, value: String, width: CGFloat = 50, height: CGFloat = 50, titleConfig: ContentConfig = ContentConfig(), valueConfig: ContentConfig = ContentConfig()) {
         self.titleText = title
         self.valueText = value
         self.titleConfig = titleConfig

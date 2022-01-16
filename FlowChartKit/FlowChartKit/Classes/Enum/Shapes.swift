@@ -7,12 +7,12 @@
 
 import UIKit
 
-enum Shapes {
+public enum Shapes {
     case rect(_ width: CGFloat, _ height: CGFloat)
     case circle(_ width: CGFloat, _ height: CGFloat)
     case diamond(_ width: CGFloat, _ height: CGFloat)
     
-    var size: CGSize {
+    public var size: CGSize {
         switch self {
         case .rect(let width, let height):
             return CGSize(width: width, height: height)
