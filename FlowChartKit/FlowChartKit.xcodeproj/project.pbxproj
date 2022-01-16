@@ -10,6 +10,8 @@
 		687913D1279457CE0080A9CE /* FlowChartKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 687913C7279457CD0080A9CE /* FlowChartKit.framework */; };
 		687913D6279457CF0080A9CE /* FlowChartKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913D5279457CF0080A9CE /* FlowChartKitTests.swift */; };
 		687913D8279457CF0080A9CE /* FlowChartKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 687913CA279457CD0080A9CE /* FlowChartKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		687913E3279459B30080A9CE /* FlowChartKit.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 687913E2279459B30080A9CE /* FlowChartKit.podspec */; };
+		687913E5279459D00080A9CE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 687913E4279459D00080A9CE /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		687913D0279457CE0080A9CE /* FlowChartKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowChartKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		687913D5279457CF0080A9CE /* FlowChartKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowChartKitTests.swift; sourceTree = "<group>"; };
 		687913D7279457CF0080A9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		687913E2279459B30080A9CE /* FlowChartKit.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = FlowChartKit.podspec; path = ../../FlowChartKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		687913E4279459D00080A9CE /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,9 @@
 		687913C9279457CD0080A9CE /* FlowChartKit */ = {
 			isa = PBXGroup;
 			children = (
+				687913E4279459D00080A9CE /* README.md */,
+				687913E2279459B30080A9CE /* FlowChartKit.podspec */,
+				687913E1279459320080A9CE /* Classes */,
 				687913CA279457CD0080A9CE /* FlowChartKit.h */,
 				687913CB279457CD0080A9CE /* Info.plist */,
 			);
@@ -84,6 +91,13 @@
 				687913D7279457CF0080A9CE /* Info.plist */,
 			);
 			path = FlowChartKitTests;
+			sourceTree = "<group>";
+		};
+		687913E1279459320080A9CE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +191,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				687913E5279459D00080A9CE /* README.md in Resources */,
+				687913E3279459B30080A9CE /* FlowChartKit.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
