@@ -68,6 +68,39 @@
 		6879143F27945CED0080A9CE /* DiamondShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140127945CB90080A9CE /* DiamondShape.swift */; };
 		6879144027945CED0080A9CE /* ViewFrameSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913FD27945CB80080A9CE /* ViewFrameSelect.swift */; };
 		6879144127945CED0080A9CE /* TextsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140227945CB90080A9CE /* TextsContentView.swift */; };
+		6879144927945DE80080A9CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879144827945DE80080A9CE /* AppDelegate.swift */; };
+		6879144D27945DE80080A9CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879144C27945DE80080A9CE /* ViewController.swift */; };
+		6879145027945DE80080A9CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6879144E27945DE80080A9CE /* Main.storyboard */; };
+		6879145227945DEE0080A9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6879145127945DEE0080A9CE /* Assets.xcassets */; };
+		6879145527945DEE0080A9CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6879145327945DEE0080A9CE /* LaunchScreen.storyboard */; };
+		6879145A2794608D0080A9CE /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913F527945CB80080A9CE /* Shapes.swift */; };
+		6879145B2794608D0080A9CE /* PathDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913F227945CB80080A9CE /* PathDirection.swift */; };
+		6879145C2794608D0080A9CE /* DrawDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913F427945CB80080A9CE /* DrawDirection.swift */; };
+		6879145D2794608D0080A9CE /* ViewPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913F627945CB80080A9CE /* ViewPosition.swift */; };
+		6879145E2794608D0080A9CE /* FlowGroupAxis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913F327945CB80080A9CE /* FlowGroupAxis.swift */; };
+		6879145F2794608D0080A9CE /* ContackType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913F127945CB80080A9CE /* ContackType.swift */; };
+		68791460279460910080A9CE /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140627945CB90080A9CE /* Extension+UIView.swift */; };
+		68791461279460910080A9CE /* Extension+FlowGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140427945CB90080A9CE /* Extension+FlowGraphView.swift */; };
+		68791462279460910080A9CE /* UIBezierPath+Arrow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140527945CB90080A9CE /* UIBezierPath+Arrow.swift */; };
+		68791463279460930080A9CE /* DrawingLinkPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913E727945CB80080A9CE /* DrawingLinkPlan.swift */; };
+		68791464279460970080A9CE /* EdgeOffsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913EE27945CB80080A9CE /* EdgeOffsets.swift */; };
+		68791465279460970080A9CE /* DrawingLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913EF27945CB80080A9CE /* DrawingLine.swift */; };
+		68791466279460970080A9CE /* FlowGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913ED27945CB80080A9CE /* FlowGraph.swift */; };
+		687914672794609C0080A9CE /* ContentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913EA27945CB80080A9CE /* ContentConfig.swift */; };
+		687914682794609C0080A9CE /* NodeConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913EC27945CB80080A9CE /* NodeConfig.swift */; };
+		687914692794609C0080A9CE /* SpotConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913EB27945CB80080A9CE /* SpotConfig.swift */; };
+		6879146A2794609C0080A9CE /* LineConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913E927945CB80080A9CE /* LineConfig.swift */; };
+		6879146B279460A10080A9CE /* GraphElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140827945CB90080A9CE /* GraphElement.swift */; };
+		6879146C279460A10080A9CE /* ShapeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140927945CB90080A9CE /* ShapeViewProtocol.swift */; };
+		6879146D279460A40080A9CE /* DrawPathUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913F827945CB80080A9CE /* DrawPathUtil.swift */; };
+		6879146E279460A80080A9CE /* FlowGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913FA27945CB80080A9CE /* FlowGraphView.swift */; };
+		6879146F279460A80080A9CE /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913FB27945CB80080A9CE /* CustomView.swift */; };
+		68791470279460AD0080A9CE /* TextsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140227945CB90080A9CE /* TextsContentView.swift */; };
+		68791471279460AD0080A9CE /* RectShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913FE27945CB80080A9CE /* RectShape.swift */; };
+		68791472279460AD0080A9CE /* ViewFrameSelect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913FD27945CB80080A9CE /* ViewFrameSelect.swift */; };
+		68791473279460AD0080A9CE /* CircleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140027945CB90080A9CE /* CircleShape.swift */; };
+		68791474279460AD0080A9CE /* DiamondShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6879140127945CB90080A9CE /* DiamondShape.swift */; };
+		68791475279460AD0080A9CE /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687913FF27945CB80080A9CE /* ShapeFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +150,13 @@
 		6879140627945CB90080A9CE /* Extension+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
 		6879140827945CB90080A9CE /* GraphElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphElement.swift; sourceTree = "<group>"; };
 		6879140927945CB90080A9CE /* ShapeViewProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeViewProtocol.swift; sourceTree = "<group>"; };
+		6879144627945DE80080A9CE /* DemoFlowChartKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFlowChartKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6879144827945DE80080A9CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6879144C27945DE80080A9CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6879144F27945DE80080A9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6879145127945DEE0080A9CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6879145427945DEE0080A9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6879145627945DEE0080A9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +175,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6879144327945DE80080A9CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -143,6 +190,7 @@
 			children = (
 				687913C9279457CD0080A9CE /* FlowChartKit */,
 				687913D4279457CF0080A9CE /* FlowChartKitTests */,
+				6879144727945DE80080A9CE /* DemoFlowChartKit */,
 				687913C8279457CD0080A9CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,6 +200,7 @@
 			children = (
 				687913C7279457CD0080A9CE /* FlowChartKit.framework */,
 				687913D0279457CE0080A9CE /* FlowChartKitTests.xctest */,
+				6879144627945DE80080A9CE /* DemoFlowChartKit.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -282,6 +331,19 @@
 			path = ../../../../../CM_Project/CMFlowChartKit/CMFlowChartKit/FlowChart/Protocols;
 			sourceTree = "<group>";
 		};
+		6879144727945DE80080A9CE /* DemoFlowChartKit */ = {
+			isa = PBXGroup;
+			children = (
+				6879144827945DE80080A9CE /* AppDelegate.swift */,
+				6879144C27945DE80080A9CE /* ViewController.swift */,
+				6879144E27945DE80080A9CE /* Main.storyboard */,
+				6879145127945DEE0080A9CE /* Assets.xcassets */,
+				6879145327945DEE0080A9CE /* LaunchScreen.storyboard */,
+				6879145627945DEE0080A9CE /* Info.plist */,
+			);
+			path = DemoFlowChartKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -332,6 +394,23 @@
 			productReference = 687913D0279457CE0080A9CE /* FlowChartKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6879144527945DE80080A9CE /* DemoFlowChartKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6879145727945DEE0080A9CE /* Build configuration list for PBXNativeTarget "DemoFlowChartKit" */;
+			buildPhases = (
+				6879144227945DE80080A9CE /* Sources */,
+				6879144327945DE80080A9CE /* Frameworks */,
+				6879144427945DE80080A9CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoFlowChartKit;
+			productName = DemoFlowChartKit;
+			productReference = 6879144627945DE80080A9CE /* DemoFlowChartKit.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -345,6 +424,9 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					687913CF279457CE0080A9CE = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					6879144527945DE80080A9CE = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
@@ -364,6 +446,7 @@
 			targets = (
 				687913C6279457CD0080A9CE /* FlowChartKit */,
 				687913CF279457CE0080A9CE /* FlowChartKitTests */,
+				6879144527945DE80080A9CE /* DemoFlowChartKit */,
 			);
 		};
 /* End PBXProject section */
@@ -382,6 +465,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6879144427945DE80080A9CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6879145527945DEE0080A9CE /* LaunchScreen.storyboard in Resources */,
+				6879145227945DEE0080A9CE /* Assets.xcassets in Resources */,
+				6879145027945DE80080A9CE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +552,43 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		6879144227945DE80080A9CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6879145E2794608D0080A9CE /* FlowGroupAxis.swift in Sources */,
+				6879145F2794608D0080A9CE /* ContackType.swift in Sources */,
+				68791465279460970080A9CE /* DrawingLine.swift in Sources */,
+				68791473279460AD0080A9CE /* CircleShape.swift in Sources */,
+				68791471279460AD0080A9CE /* RectShape.swift in Sources */,
+				6879145B2794608D0080A9CE /* PathDirection.swift in Sources */,
+				687914682794609C0080A9CE /* NodeConfig.swift in Sources */,
+				68791470279460AD0080A9CE /* TextsContentView.swift in Sources */,
+				68791461279460910080A9CE /* Extension+FlowGraphView.swift in Sources */,
+				6879146D279460A40080A9CE /* DrawPathUtil.swift in Sources */,
+				6879144D27945DE80080A9CE /* ViewController.swift in Sources */,
+				68791463279460930080A9CE /* DrawingLinkPlan.swift in Sources */,
+				6879146F279460A80080A9CE /* CustomView.swift in Sources */,
+				6879144927945DE80080A9CE /* AppDelegate.swift in Sources */,
+				6879146B279460A10080A9CE /* GraphElement.swift in Sources */,
+				6879146C279460A10080A9CE /* ShapeViewProtocol.swift in Sources */,
+				6879146A2794609C0080A9CE /* LineConfig.swift in Sources */,
+				68791466279460970080A9CE /* FlowGraph.swift in Sources */,
+				6879145A2794608D0080A9CE /* Shapes.swift in Sources */,
+				6879146E279460A80080A9CE /* FlowGraphView.swift in Sources */,
+				6879145C2794608D0080A9CE /* DrawDirection.swift in Sources */,
+				68791464279460970080A9CE /* EdgeOffsets.swift in Sources */,
+				6879145D2794608D0080A9CE /* ViewPosition.swift in Sources */,
+				68791460279460910080A9CE /* Extension+UIView.swift in Sources */,
+				68791475279460AD0080A9CE /* ShapeFactory.swift in Sources */,
+				68791462279460910080A9CE /* UIBezierPath+Arrow.swift in Sources */,
+				687914672794609C0080A9CE /* ContentConfig.swift in Sources */,
+				687914692794609C0080A9CE /* SpotConfig.swift in Sources */,
+				68791472279460AD0080A9CE /* ViewFrameSelect.swift in Sources */,
+				68791474279460AD0080A9CE /* DiamondShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -468,6 +598,25 @@
 			targetProxy = 687913D2279457CE0080A9CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6879144E27945DE80080A9CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6879144F27945DE80080A9CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6879145327945DEE0080A9CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6879145427945DEE0080A9CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		687913D9279457CF0080A9CE /* Debug */ = {
@@ -678,6 +827,46 @@
 			};
 			name = Release;
 		};
+		6879145827945DEE0080A9CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24NL64APBF;
+				INFOPLIST_FILE = DemoFlowChartKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KayChang.DemoFlowChartKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6879145927945DEE0080A9CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 24NL64APBF;
+				INFOPLIST_FILE = DemoFlowChartKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KayChang.DemoFlowChartKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -704,6 +893,15 @@
 			buildConfigurations = (
 				687913DF279457CF0080A9CE /* Debug */,
 				687913E0279457CF0080A9CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6879145727945DEE0080A9CE /* Build configuration list for PBXNativeTarget "DemoFlowChartKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6879145827945DEE0080A9CE /* Debug */,
+				6879145927945DEE0080A9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

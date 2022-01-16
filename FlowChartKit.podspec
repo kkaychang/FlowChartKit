@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
       :git => 'git@github.com:kkaychang/FlowChartKit.git', :tag => s.version
   }
 
-  s.ios.deployment_target = "10.0"
+  s.ios.deployment_target = "11.0"
 
   s.source_files  = "FlowChartKit/Classes/*.{h,m,swift}", "FlowChartKit/Classes/**/*.{h,m,swift}"
   s.resource_bundles = {
