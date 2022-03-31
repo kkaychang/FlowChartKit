@@ -248,8 +248,7 @@
 				687913EE27945CB80080A9CE /* EdgeOffsets.swift */,
 				687913EF27945CB80080A9CE /* DrawingLine.swift */,
 			);
-			name = Models;
-			path = ../../../../../CM_Project/CMFlowChartKit/CMFlowChartKit/FlowChart/Models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		687913E827945CB80080A9CE /* Config */ = {
@@ -273,8 +272,7 @@
 				687913F527945CB80080A9CE /* Shapes.swift */,
 				687913F627945CB80080A9CE /* ViewPosition.swift */,
 			);
-			name = Enum;
-			path = ../../../../../CM_Project/CMFlowChartKit/CMFlowChartKit/FlowChart/Enum;
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		687913F727945CB80080A9CE /* Util */ = {
@@ -282,8 +280,7 @@
 			children = (
 				687913F827945CB80080A9CE /* DrawPathUtil.swift */,
 			);
-			name = Util;
-			path = ../../../../../CM_Project/CMFlowChartKit/CMFlowChartKit/FlowChart/Util;
+			path = Util;
 			sourceTree = "<group>";
 		};
 		687913F927945CB80080A9CE /* View */ = {
@@ -294,8 +291,7 @@
 				687913FC27945CB80080A9CE /* Shape */,
 				6879140227945CB90080A9CE /* TextsContentView.swift */,
 			);
-			name = View;
-			path = ../../../../../CM_Project/CMFlowChartKit/CMFlowChartKit/FlowChart/View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		687913FC27945CB80080A9CE /* Shape */ = {
@@ -317,8 +313,7 @@
 				6879140527945CB90080A9CE /* UIBezierPath+Arrow.swift */,
 				6879140627945CB90080A9CE /* Extension+UIView.swift */,
 			);
-			name = Extension;
-			path = ../../../../../CM_Project/CMFlowChartKit/CMFlowChartKit/FlowChart/Extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		6879140727945CB90080A9CE /* Protocols */ = {
@@ -327,8 +322,7 @@
 				6879140827945CB90080A9CE /* GraphElement.swift */,
 				6879140927945CB90080A9CE /* ShapeViewProtocol.swift */,
 			);
-			name = Protocols;
-			path = ../../../../../CM_Project/CMFlowChartKit/CMFlowChartKit/FlowChart/Protocols;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		6879144727945DE80080A9CE /* DemoFlowChartKit */ = {
