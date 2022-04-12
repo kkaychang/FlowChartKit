@@ -31,7 +31,9 @@ public class FlowGraphView: UIView {
     }
     
     public override func layoutSubviews() {
-        isLayoutSubViews = true
+        if frame.size != .zero {
+            isLayoutSubViews = true
+        }
         if let flowGraph = flowGraph {
             draw(flowGraph)
         }
