@@ -51,6 +51,7 @@ public class FlowGraphView: UIView {
             }
             return
         }
+        self.flowGraph = flowGraph
         setupGraphViews(flowGraphGroup: flowGraph.groups)
         setupDrawLinePlan(linePlans: flowGraph.drawingPlans)
     }
